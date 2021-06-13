@@ -1,0 +1,119 @@
+#education{
+  position: relative;
+  padding: 0 0;
+  overflow: hidden;
+}
+
+.education-heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  display: flex !important;
+}
+
+.education-heading1 {
+  color: #dee3e4; 
+  opacity: 0.4;
+  font-weight: 600;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  width: 100%; 
+}
+
+.education-paragraph {
+  font-weight: 600;
+  line-height: 1.6;
+  font-size: 2.25rem;
+  color: #343a40;
+  margin-bottom: 0;
+  width: 100%;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  margin-top: 75px;
+}
+
+
+
+.timeline-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -15px;
+  margin-right: -15px;
+  box-sizing: border-box;
+  padding:10px;
+  
+ 
+ 
+}
+
+.education-new-container{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.education-heading-new{
+  font-weight: 600;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.education-border{
+  padding:0.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+  background-color: #fff;
+  width: 100%;
+}
+
+.year{
+  background-color: #20c997;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 6.4px;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 4px;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.course{
+  font-size: 21px;
+}
+
+.school{
+  color: #dc3545;
+  
+}
+
+.edu-line{
+  border-color: #20c997;
+  width: 80px;
+  border-width: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-bottom: 2px solid #20c997;
+}
+
+.description{
+  margin-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  color: #343a40;
+}
+
+.education-container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+

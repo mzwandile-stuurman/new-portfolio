@@ -1,0 +1,160 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.Nav-bar {
+  position: fixed;
+  z-index: 999;
+  box-shadow: none;
+  width: 100%;
+  justify-content: center;
+  color: #fff;
+  font-family: 500;
+  object-fit: cover;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+}
+
+.Navbarlist {
+  display: flex; 
+  justify-content: space-around; 
+  list-style: none;
+  text-decoration: none;
+  opacity: 0.6;
+  height: 0.5cm;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar-link a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+  z-index: 2;
+}
+
+.home-heading {
+  font-weight: 500;
+  font-size: 1.75rem;
+  color: #fff;
+}
+
+.type-color {
+  color: #fff;
+}
+.home-heading2 {
+  color: #fff;
+
+  font-size: 2rem;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.gray-back {
+  position: absolute;
+  top: 0%;
+  z-index: -1;
+}
+
+.dark-back {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+}
+
+.gray-back img {
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.home-paragraph {
+  color: #fff;
+  font-weight: 500;
+}
+
+.home-a {
+  text-decoration: none;
+  color: #20c997;
+  border-color: #20c997;
+  padding: 0.8rem 2.6rem;
+  font-weight: 500;
+  border-width: 2px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-style: solid;
+  border-radius: 50rem;
+  margin-top: 3rem;
+}
+
+.home-a:hover {
+  background-color: #20c997;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+/* @media (max-width: 1043) {
+} */
+
+@media screen and (max-width: 720px) {
+  .Nav-bar {
+    top: 0%;
+    right: 0%;
+    font-size: 11px;
+    position: sticky;
+  }
+  .navbar-link {
+    padding: 0.5%;
+  }
+  .gray-back {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .gray-back img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  .home-heading {
+    position: relative;
+  }
+
+  .home-heading2 {
+    position: relative;
+  }
+
+  .content-container {
+    display: felx;
+    flex-wrap: wrap;
+  }
+  .dark-back {
+    height: 100vh;
+    width: 100vh;
+    object-fit: cover;
+  }
+  .landing-image {
+    object-fit: cover;
+  }
+}

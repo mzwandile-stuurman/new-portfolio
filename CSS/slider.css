@@ -1,0 +1,87 @@
+#slider {
+  height: 100vh;
+}
+
+.slider-heading-container {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+  display: flex;
+}
+
+.slider-heading1 {
+  color: #dee3e4;
+  opacity: 0.4;
+  font-weight: 600;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.slider-heading2 {
+  font-weight: 600;  
+  line-height: 1.6;
+  font-size: 2.25rem;
+  color: #343a40;
+  margin-bottom: 0;
+  width: 100%;
+  position: absolute;
+  font-family: "Poppins", sans-serif;
+  margin-top: 75px;
+}
+
+.slide {
+  padding: 20px;
+  border-radius: 0.25rem;
+  background-color: #f8f9fa;
+  height: 290px;
+}
+
+.slide-content {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: 1.5rem;
+  align-items: center;
+  padding: 10px;
+  color: #343a40;
+}
+
+#image {
+  border-radius: 50%;
+  display: block;
+  margin-right: 18px;
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+}
+
+.strong {
+  font-weight: 600;
+  color: #343a40;
+  display: block;
+}
+
+.p {
+  font-weight: 500 !important;
+  color: #343a40;
+}
+
+.owl-carousel {
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.testimonial {
+  margin-top: 100px;
+}
+
+.heading {
+  margin-bottom: 20%;
+}
+
+.p2 {
+  color: #343a40;
+}
